@@ -35,7 +35,8 @@ struct ContentView: View {
                             Image("flag")
                                 .resizable()
                                 .frame(width: 75, height: 75)
-                    }.offset(y: 40)
+                    }.padding(EdgeInsets.init(top: 0, leading: 18, bottom: 0, trailing: 18))
+                    .offset(y: 40)
                 }
                 Rectangle()
                     .frame(height: 40)
@@ -74,7 +75,8 @@ struct ContentView: View {
                Divider()
                     .foregroundColor(color)
                 HStack {
-                    
+                    Label("Je Partage", systemImage: "square.and.arrow.up")
+                        .foregroundColor(color)
                 } .frame(height: 45)
             }.edgesIgnoringSafeArea(.top)
             
@@ -86,5 +88,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 13")
+            .previewInterfaceOrientation(.portrait)
     }
 }

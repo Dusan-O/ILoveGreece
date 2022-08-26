@@ -11,12 +11,7 @@
 		2F164D1328B946E600B56ACC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D1228B946E600B56ACC /* ContentView.swift */; };
 		2F164D1528B946E900B56ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F164D1428B946E900B56ACC /* Assets.xcassets */; };
 		2F164D1828B946E900B56ACC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F164D1728B946E900B56ACC /* Preview Assets.xcassets */; };
-		2F164D1F28B94A5D00B56ACC /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D1E28B94A5D00B56ACC /* BackgroundView.swift */; };
-		2F164D2128B94D0500B56ACC /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D2028B94D0500B56ACC /* TextView.swift */; };
-		2F164D2328B94ED700B56ACC /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D2228B94ED700B56ACC /* ProfilePictureView.swift */; };
-		2F164D2528B951E300B56ACC /* AvisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D2428B951E300B56ACC /* AvisView.swift */; };
 		2F164D2728B954F600B56ACC /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D2628B954F600B56ACC /* CircleImageView.swift */; };
-		2F164D2928B9569800B56ACC /* DescriptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F164D2828B9569800B56ACC /* DescriptionTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +20,7 @@
 		2F164D1228B946E600B56ACC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F164D1428B946E900B56ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F164D1728B946E900B56ACC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2F164D1E28B94A5D00B56ACC /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
-		2F164D2028B94D0500B56ACC /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		2F164D2228B94ED700B56ACC /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
-		2F164D2428B951E300B56ACC /* AvisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvisView.swift; sourceTree = "<group>"; };
 		2F164D2628B954F600B56ACC /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
-		2F164D2828B9569800B56ACC /* DescriptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +56,6 @@
 				2F164D1028B946E600B56ACC /* ILoveGreeceApp.swift */,
 				2F164D1228B946E600B56ACC /* ContentView.swift */,
 				2F164D2628B954F600B56ACC /* CircleImageView.swift */,
-				2F164D1E28B94A5D00B56ACC /* BackgroundView.swift */,
-				2F164D2428B951E300B56ACC /* AvisView.swift */,
-				2F164D2228B94ED700B56ACC /* ProfilePictureView.swift */,
-				2F164D2828B9569800B56ACC /* DescriptionTextView.swift */,
-				2F164D2028B94D0500B56ACC /* TextView.swift */,
 				2F164D1428B946E900B56ACC /* Assets.xcassets */,
 				2F164D1628B946E900B56ACC /* Preview Content */,
 			);
@@ -155,14 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F164D2928B9569800B56ACC /* DescriptionTextView.swift in Sources */,
-				2F164D1F28B94A5D00B56ACC /* BackgroundView.swift in Sources */,
-				2F164D2128B94D0500B56ACC /* TextView.swift in Sources */,
 				2F164D2728B954F600B56ACC /* CircleImageView.swift in Sources */,
 				2F164D1328B946E600B56ACC /* ContentView.swift in Sources */,
-				2F164D2528B951E300B56ACC /* AvisView.swift in Sources */,
 				2F164D1128B946E600B56ACC /* ILoveGreeceApp.swift in Sources */,
-				2F164D2328B94ED700B56ACC /* ProfilePictureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +277,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,6 +307,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
